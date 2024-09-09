@@ -1,0 +1,22 @@
+#servicos {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.listaservicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.servico h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    font-size: 16px;
+}

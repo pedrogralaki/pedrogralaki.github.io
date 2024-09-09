@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.listacontato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 870px) {
+
+    h2 {
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+
+    h2 {
+        font-size: 25px;
+    }
+    
+}
